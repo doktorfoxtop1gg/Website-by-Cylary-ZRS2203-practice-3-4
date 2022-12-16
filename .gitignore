@@ -1,0 +1,7 @@
+venv
+**/*.pyc
+**/__pycache__
+media
+.idea
+.vscode
+db.sqlite3

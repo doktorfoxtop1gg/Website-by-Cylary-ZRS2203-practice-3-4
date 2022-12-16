@@ -1,0 +1,11 @@
+div.about {
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+}
+div.row.about-div {
+    width: 100%;
+}
+div.row.about-div > main {
+    width: 100%;
+}

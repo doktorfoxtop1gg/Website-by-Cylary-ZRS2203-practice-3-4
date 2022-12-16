@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+      <div class="row about-div">
+        <!-- Latest Posts -->
+        <main>
+          <div class="container">
+              <div class="col about"><b>Team Lead</b><br>
+Цветков Евгений Александрович<br>
+Главный Разработчик Frontend:<br>
+Панюков Даниил Дмитриевич<br>
+<br>
+<b>Главный Разработчик Backend:</b><br>
+Акуев Руслан Рустамович<br>
+<br>
+          <b>Frontend:</b><br>
+Васалатий Дмитрий Александрович<br>
+Левенштейн Илья Александрович<br>
+<br>
+              <b>Backend:</b><br>
+Гасс Алексей Александрович<br>
+Герцен Александр Марчелович<br>
+Ивлев Никита Витальевий<br>
+Кудрявцев Данила Сергеевич<br>
+Николаев Степан Денисович<br>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+{% endblock content %}
